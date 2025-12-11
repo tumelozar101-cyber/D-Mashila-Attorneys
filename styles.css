@@ -513,6 +513,23 @@ a {
     opacity: 0.85;
 }
 
+.map-section {
+    padding-top: 0; /* keeps spacing tight after Contact section */
+}
+
+.map-wrapper {
+    max-width: 100%;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.15);
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 380px;
+    border: 0;
+}
+
 /* ===== RESPONSIVE ===== */
 
 @media (max-width: 960px) {
